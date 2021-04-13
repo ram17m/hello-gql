@@ -7,7 +7,7 @@ const speciesData = [
 ];
 
 export default {
-  Animals: {
+  Animal: {
     species(parent) {
       console.log("parent", parent);
       return speciesData
